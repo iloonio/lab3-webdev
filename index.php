@@ -29,11 +29,11 @@ if ($loggedIn) { ?>
     } 
     else { ?>
     <form action="index.php" method="post">
-      <div id="form-group">
+      <div class="form-group">
         <label for="username">Username</label>
         <input type="text" name="username" id="username" value="myusername">
       </div>
-      <div id="form-group">
+      <div class="form-group">
         <label for="password">Password</label>
         <input type="password" name="password" id="password" value="mypassword">
       </div>
