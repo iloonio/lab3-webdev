@@ -24,8 +24,10 @@ session_start();
 include("includes/header.php");
 
 if ($loggedIn) { ?>
-    <p>Welcome, <?php echo $_SESSION["username"]; ?>!</p>
-  <?php } else { ?>
+    
+    <?php header("Location: startmenu.php");
+    } 
+    else { ?>
     <form action="index.php" method="post">
       <div class="form-group">
         <label for="username">Username</label>
