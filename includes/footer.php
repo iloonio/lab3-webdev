@@ -1,5 +1,5 @@
-</div>
-    <div class="footer">
+</section>
+    <div id="footer">
       <p>Kurskod: DT100G</p>
       <p>Ruslan Abdulin</p>
       <p>ruab2100@student.miun.se</p>

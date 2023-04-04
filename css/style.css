@@ -1,0 +1,15 @@
+#nav{
+float: left;
+}
+
+#footer{
+ border: 4px;
+ border-color: aquamarine;
+}
+
+#right-content{
+float: right;
+background-color: aliceblue;
+
+}
+
