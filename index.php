@@ -37,6 +37,6 @@ if ($loggedIn) { ?>
       </div>
       <input type="submit" value="Log in">
     </form>
-  <?php } ?>
+  <?php }
 
 include("includes/footer.php");

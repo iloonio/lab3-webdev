@@ -7,8 +7,4 @@
   <body>
   <div class="container">
       <h1>Laboration 3 - Webbprogrammering DT100G</h1>
-      <ul class="navigation">
-        <li><a href="#">Home</a></li>
-        <li><a href="information.php">Information</a></li>
-        <li><a href="website.php">Startmenu</a></li>
-      </ul>
+      <?php include("includes/navigation_list.php");
