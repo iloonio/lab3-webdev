@@ -58,8 +58,8 @@ function print_info() {
   echo "User agent: $os_browser<br>";
 }
 
-include("includes/header.php");
+include("includes/header.php"); ?>
 
-print_info();
+<container class="textbox"> <?php print_info(); ?> </container>
 
-include("includes/footer.php");
+<?php include("includes/footer.php"); ?>

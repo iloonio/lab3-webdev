@@ -37,7 +37,7 @@ if ($loggedIn) { ?>
         <label for="password">Password</label>
         <input type="password" name="password" id="password" value="mypassword">
       </div>
-      <input type="submit" value="Log in">
+      <input class="submitButton" type="submit" value="Log in">
     </form>
   <?php }
 

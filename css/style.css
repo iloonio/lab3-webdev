@@ -1,25 +1,82 @@
 body{
-    background-color: aquamarine;
+    background-image: linear-gradient(to bottom right, rgb(197, 255, 243), white);
+    background-attachment: fixed;
 }
 
 .container{
-    margin-right: 75%;
+    text-align: center;
+    background-color: rgb(255, 164, 150);
+    border-color: rgb(219, 108, 91);
+    border-style:solid;
+    border-width: 10px;
+    border-radius: 5%;
+    padding: 10px;
 }
 
 .textbox{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
-    background-color:coral;
+    font-family: monospace;
     color: white;
+    font-size: large;
+    
+}
+
+.header{
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-family: monospace;
+    color: white;
+    background-color: rgb(255, 164, 150);
+    border-color: rgb(219, 108, 91);
+    border-style:solid;
+    border-width: 10px;
+    border-radius: 5%;
+    
 }
 
 .footer{
-    color: red;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-family: monospace;
+    color: white;
+    background-color: rgb(255, 164, 150);
+    border-color: rgb(219, 108, 91);
+    border-style:solid;
+    border-width: 10px;
+    border-radius: 5%;
 }
 
 .form-group{
-    background-color: coral;
-    width: 50%;
-    height: 25px;
-    margin-right: 50%;
+font-family: monospace;
+padding: 10px;
+color: white;
+font-size: large;
+}
+
+.submitButton{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(255, 164, 150);
+    border-color: rgb(219, 108, 91);
+    border-style:solid;
+    font-family: monospace;
+    padding: 10px;
+    color: white;
+    font-size: large;
+  }
+
+.navigation{
+justify-content: left;
 }
