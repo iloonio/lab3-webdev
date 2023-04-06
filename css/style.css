@@ -1,20 +1,21 @@
 body{
-    background-color:aliceblue
+    background-color: aquamarine;
 }
 
 .container{
     margin-right: 75%;
+    float: right;
 }
 
 .textbox{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
-    background-color: red;
+    background-color:coral;
     color: white;
 }
 
 .footer{
-    background-color: bisque;
+    color: red;
 }
 
 .form-group{
