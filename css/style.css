@@ -3,13 +3,13 @@ body{
 }
 
 .container{
-    margin-right: 50%;
+    margin-right: 75%;
+    align-items: center;
 }
 
 .textbox{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
-    margin-right: 75%;
     background-color:coral;
     color: white;
 }
