@@ -1,26 +1,15 @@
 body{
-    background-color:aliceblue
+    background-color: aquamarine;
 }
 
 .container{
-    margin-right: 50%;
-}
-
-.textbox{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
-    margin-right: 75%;
-    background-color:coral;
-    color: white;
+    float: right;
 }
 
 .footer{
-    background-color: bisque;
+    color: red;
 }
 
 .form-group{
-    background-color: coral;
-    width: 50%;
-    height: 25px;
-    margin-right: 50%;
+    color: blue;
 }

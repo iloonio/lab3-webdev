@@ -5,7 +5,7 @@ include("includes/login_tracker.php");
 include("includes/header.php"); ?>
 
 <p>Welcome, <?php echo $_SESSION["username"]; ?>!</p>
-<div class="textbox">
+
 <h3>Har du tidigare erfarenhet av utveckling med PHP?</h3>
     - Nej! Det här var min första gång
 <h3>Hur har du valt att strukturera upp dina filer och kataloger? </h3>
@@ -24,7 +24,6 @@ include("includes/header.php"); ?>
     det förr. Vidare hade det varit bra om vi hade föreläsningar som gick genom vad Promise Objects är,
     då det var något som jag fastnade på i lab 2 och kunde absolut inte vara redo för om jag utgick bara
     från kursmaterial.
-</div>
 
 <?php
 include("includes/footer.php");
