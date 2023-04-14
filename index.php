@@ -10,7 +10,7 @@ session_start();
     $password = $_POST["password"];
 
     // Check if username and password are correct
-    if ($username == "myusername" && $password == "mypassword") {
+    if ($username == "user" && $password == "pass") {
       // Set the session variable
       $_SESSION["loggedIn"] = true;
       $_SESSION["username"] = $username;
